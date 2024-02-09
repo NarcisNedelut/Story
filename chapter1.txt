@@ -1,4 +1,4 @@
-Commands Git & Command Prompt / Terminal
+Commands Git, GITHUB & Command Prompt / Terminal
 
 Terminal:
 1. Create a directory: mkdir <name>
@@ -17,3 +17,10 @@ GIT:
 5. Check all commits log (author, date and commit name): git log
 6. Check differences between local file and GIT file: git diff <file_name>.<extension>
 7. Restore / Rollback the content from GIT file to local file: git checkout <file_name>.<extension>
+
+GITHUB:
+To work with github, you need to have an account on their website(github.com) and then you need to create your own repository.
+After you get a link of your repository and necessary commands to post on it.
+
+1. Create connection between local GIT and remote GITHUB: git remote add origin <repository_link>
+2. Push local repository to remote repository: git push -u <remote_name> <branch_name>
