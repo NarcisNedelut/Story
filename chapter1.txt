@@ -1,1 +1,16 @@
-It was the best time
+Commands Git & Command Prompt / Terminal
+
+Terminal:
+1. Create a directory: mkdir <name>
+2. Access a directory: cd <name>
+3. List items of a directory: ls
+    3.1. List hiden idems from a directory: ls -a
+4. Create a file in a directory: touch <file_name>.<extension>
+5. Open a file using a Visio: open -a /Applications/Visual\ Studio\ Code.app <file_name>.<extension>
+
+GIT:
+1. Initiate GIT: git init
+2. Check records from GIT: git status
+3. Add records on GIT: git add <file_name>.<extension>
+    3.1. Add all records from a directory: git add .
+4. Save records on GIT: git commit -m <"Name of the commit">
