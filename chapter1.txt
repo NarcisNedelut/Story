@@ -14,3 +14,6 @@ GIT:
 3. Add records on GIT: git add <file_name>.<extension>
     3.1. Add all records from a directory: git add .
 4. Save records on GIT: git commit -m <"Name of the commit">
+5. Check all commits log (author, date and commit name): git log
+6. Check differences between local file and GIT file: git diff <file_name>.<extension>
+7. Restore / Rollback the content from GIT file to local file: git checkout <file_name>.<extension>
