@@ -7,6 +7,7 @@ Terminal:
     3.1. List hiden idems from a directory: ls -a
 4. Create a file in a directory: touch <file_name>.<extension>
 5. Open a file using a Visio: open -a /Applications/Visual\ Studio\ Code.app <file_name>.<extension>
+6. Clear terminal: clear
 
 GIT:
 1. Initiate GIT: git init
@@ -17,6 +18,17 @@ GIT:
 5. Check all commits log (author, date and commit name): git log
 6. Check differences between local file and GIT file: git diff <file_name>.<extension>
 7. Restore / Rollback the content from GIT file to local file: git checkout <file_name>.<extension>
+8. Remove all files (.) from local git (staging): git rm --cached -r .
+9. Create a file for managing which files you push/commit: touch .gitignore
+
+
+.gitignore:
+1. You can mention the files you want to ignore (vertical list): secrets.txt
+2. You can exclude an entire extension like: *.txt
+3. You can use comments via # : #This is a comment
+4. Templates: https://github.com/github/gitignore
+
+
 
 GITHUB:
 To work with github, you need to have an account on their website(github.com) and then you need to create your own repository.
