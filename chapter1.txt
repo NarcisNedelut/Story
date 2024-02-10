@@ -24,3 +24,6 @@ After you get a link of your repository and necessary commands to post on it.
 
 1. Create connection between local GIT and remote GITHUB: git remote add origin <repository_link>
 2. Push local repository to remote repository: git push -u <remote_name> <branch_name>
+* GIT Credential Manager must be installed link: https://github.com/git-ecosystem/git-credential-manager
+** Make sure that Credential Helper is enable too using command: git config --global credential.helper manager
+
