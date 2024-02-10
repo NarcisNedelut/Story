@@ -25,7 +25,8 @@ GIT Branch:
 1. Create a Branch (acting as feature/bug): git branch <name_of_branch>
 2. Check all available branches: git branch
 3. Select the branch where you want to do updates: git checkout <name_of_branch>
-
+4. Remove a branch localy: git branch -d <name_of_branch>
+5. Delete brach Push to Github: git push <remote_name> --delete <branch_name>
 
 
 .gitignore:
